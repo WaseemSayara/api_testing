@@ -9,7 +9,7 @@ if args[1] == "all":
 
 elif args[1] == "get":
     print("entered get")
-    pytest.main(["test_get_requests.py"])
+    pytest.main(["test_get_request12.py"])
 
 elif args[1] == "post":
     pytest.main(["test_get_requests.py"])
