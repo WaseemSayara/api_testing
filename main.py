@@ -12,13 +12,13 @@ elif args[1] == "get":
     pytest.main(["test_get_requests.py"])
 
 elif args[1] == "post":
-    pytest.main(["test_get_requests.py"])
+    pytest.main(["test_post_requests.py"])
 
 elif args[1] == "put":
-    pytest.main(["test_get_requests.py"])
+    pytest.main(["test_put_requests.py"])
 
 elif args[1] == "patch":
-    pytest.main(["test_get_requests.py"])
+    pytest.main(["test_patch_requests.py"])
 
 elif args[1] == "delete":
-    pytest.main(["test_get_requests.py"])
+    pytest.main(["test_delete_requests.py"])
