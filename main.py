@@ -3,10 +3,12 @@ import pytest
 
 args = sys.argv
 
+print(args)
 if args[1] == "all":
     pytest.main([])
 
 elif args[1] == "get":
+    print("entered get")
     pytest.main(["test_get_requests.py"])
 
 elif args[1] == "post":
